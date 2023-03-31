@@ -1,0 +1,103 @@
+* {
+    padding: 0%;
+    margin: 0%;
+
+}
+
+body {
+    background-color: #f8cd58aa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#login {
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#login>div {
+    width: 30%;
+    /* height: 650px; */
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+    margin: 50px;
+}
+
+div>h1 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+div>input {
+    justify-content: center;
+    width: 50%;
+    margin: 10px;
+    padding: 5px;
+    box-shadow: rgb(38, 57, 77) 20px 20px 30px -9px;
+    background-color: #ECE6E6;
+    border-style: none;
+}
+
+#submit {
+    background-color: #F1A567;
+    width: 53%;
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    cursor: pointer;
+    color: white;
+}
+
+div>#input {
+    padding-bottom: 100px;
+}
+
+div>#signup {
+    width: 30%;
+    margin-left: -50px;
+    background-color: #F1DA66;
+    box-shadow: rgba(0, 0, 0, 0.35) 10px 5px 15px;
+}
+
+div>p {
+    padding-top: 130px;
+    font-weight: bold;
+    font-size: 30px;
+    /* padding: 50px; */
+    color: white;
+}
+
+span {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+button {
+    cursor: pointer;
+    width: 25%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #F1A567;
+    border-style: none;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 10px 5px 15px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+sign > .input{
+    width: 40%;
+    justify-content: center;
+}
